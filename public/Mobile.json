@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "iQOO z6 lite",
+    "color": "white",
+    "camera": "12Mp",
+    "price": "1500 tk",
+    "img": "https://i.ibb.co/6snMtvq/Phone-2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Vivo Y16",
+    "color": "white",
+    "camera": "12Mp",
+    "price": "1700 tk",
+    "img": "https://i.ibb.co/Rc6xN9r/Phone-1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "iphone 12",
+    "color": "white",
+    "camera": "12Mp",
+    "price": "1500 tk",
+    "img": "https://i.ibb.co/gFtqZqk/Phone-3.jpg"
+  }
+]
