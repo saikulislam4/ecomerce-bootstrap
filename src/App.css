@@ -9,6 +9,7 @@ ul,li,a,h1,h2,h3,h4,h5,h6,p,a{
 }
 img{
     vertical-align: middle;
+    width: 100%;
 }
 body{
     background: #2f3640 !important;
@@ -182,4 +183,25 @@ body{
 
 }
 /* Banner section css end */
+/* shop section css start */
+.welcome_section{
+    margin-top: 50px !important;
+}
+.welcome_section .main{
+    height: 350px;
+    overflow: hidden;
+}
+.welcome_section .main .text{
+    left: 25%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+.welcome_section .main .text p{
+    width: 380px;
+    margin: 15px 0 !important;
+}
+.welcome_section .main .text Button{
+padding: 8px 12px !important;
+}
+/* shop section css end */
 

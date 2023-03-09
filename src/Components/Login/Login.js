@@ -5,12 +5,13 @@ import Form from "react-bootstrap/Form";
 
 const Login = () => {
     return (
-      <div className="container ">
-        <div className="row logo ">
+      <div className="loging_page">
+<div className=" container">
+        <div className=" row logo  ">
           <div className=" border col-lg-4 p-5 rounded-3">
             <Form>
               <Form.Group className="mb-3" controlId="formBasicEmail">
-                <h1 className='text-center text-uppercase mb-5'>login Form</h1>
+                <h1 className="text-center text-uppercase mb-5">login Form</h1>
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" />
                 <Form.Text className="text-muted">
@@ -39,6 +40,8 @@ const Login = () => {
           </div>
         </div>
       </div>
+      </div>
+      
     );
 };
 

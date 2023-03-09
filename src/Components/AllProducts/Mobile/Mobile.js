@@ -26,10 +26,10 @@ const Mobile = () => {
       <div>
         <h1 className='mobile_title'>All Mobile Phone</h1>
         <div className="row container">
-          <Slider {...settings}>
           {mobile.map((mobile) => (
             <SingleMobile mobile={mobile}></SingleMobile>
           ))}
+          <Slider {...settings}>
           </Slider>
         </div>
       </div>

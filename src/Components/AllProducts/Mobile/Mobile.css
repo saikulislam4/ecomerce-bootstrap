@@ -10,6 +10,8 @@
 .mobile_imge{
     padding: 20px !important;
     vertical-align: middle;
+    height: 250px;
+    object-fit: contain;
     
 }
 .mobile_imge img{

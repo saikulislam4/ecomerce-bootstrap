@@ -1,7 +1,27 @@
+.loging_page{
+    background: url(/public/Pictures/welcome\ store.png) repeat no-repeat center;
+    height: 100vh !important;
+    background-size: cover;
+    background-image: radial-gradient(rgba(47, 8, 163, 0.07), rgba(40, 13, 120, 0.256), rgba(42, 18, 179, 0.399));
+
+}
+
 .logo{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: white;
+}
+input{
+    background: transparent;
+    font-size: 20px;
+    padding: 5px 5px !important;
+}
+input:focus{
+background: transparent !important;
+}
+button{
+padding: 8px 0 !important;
 }
 .border{
     border: 1px solid gray;
@@ -10,6 +30,33 @@
 .form{
     border: 1px solid gray;
         box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+/* Registration css start */
+
+.registration input{
+    justify-content: start;
+    text-align: start;
+    background: transparent;
+    width: 96%;
+}
+.registration select{
+    color: White;
+    padding: 5px 12px !important;
+    width: 95%;
+    background: transparent;
+}
+.registration label{
+    color: white;
+}
+.registration option{
+    color: black;
+    background: transparent;
+    padding: 8px 0 !important;
+
+}
+.registration input:focus{
+    color: white;
+    background: transparent !important;
 }
 .mensandfashion .image img{
     width: 100%;

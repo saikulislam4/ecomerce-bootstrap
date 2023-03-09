@@ -7,10 +7,10 @@ import { NavLink } from 'react-bootstrap';
 
 const Registration = () => {
 return (
-  <div className="registration m-5">
-    <Form className="col-lg-6 offset-3 p-3">
-      <div className="form p-lg-5 rounded-3">
-        <h1 className=" text-decoration-underline text-center mb-5 text-uppercase">
+  <div className="registration loging_page">
+    <Form className="  col-lg-6 offset-3 p-3">
+      <div className=" form p-lg-5 rounded-3">
+        <h1 className=" text-decoration-underline text-center mb-5 text-uppercase text-white">
           Registration Form
         </h1>
         <Form.Group
@@ -19,7 +19,7 @@ return (
         ></Form.Group>
         <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridEmail">
-            <Form.Label className=" text-black">First Name</Form.Label>
+            <Form.Label className=" text-white">First Name</Form.Label>
             <Form.Control type="text" placeholder="First Name" />
           </Form.Group>
 
@@ -30,7 +30,7 @@ return (
         </Row>
         <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridNumber">
-            <Form.Label className=" text-black">Username</Form.Label>
+            <Form.Label className=" text-white">Username</Form.Label>
             <Form.Control type="text" />
           </Form.Group>
           <Form.Group as={Col} controlId="formGridState">
@@ -43,14 +43,14 @@ return (
           </Form.Group>
 
           <Form.Group as={Col} controlId="formGridNumber">
-            <Form.Label className=" text-black">Date Of Birth</Form.Label>
+            <Form.Label className=" text-white">Date Of Birth</Form.Label>
             <Form.Control type="date" />
           </Form.Group>
         </Row>
 
         <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridNumber">
-            <Form.Label className=" text-black">Number</Form.Label>
+            <Form.Label className=" text-white w-100">Number</Form.Label>
             <Form.Control type="number" />
           </Form.Group>
           <Form.Group as={Col} controlId="formGridEmail">
@@ -94,15 +94,19 @@ return (
           </Form.Group>
         </Row>
 
-        <Form.Group
-          className="mb-3 d-flex justify-content-between"
-          id="formGridCheckbox"
-        >
-          <Form.Check type="checkbox" label="Check me out" />
-          <NavLink href="/login">I have a Account</NavLink>
+        <Form.Group className="mb-3 d-flex "id="formGridCheckbox">
+          
+          <Form.Check className='' type="checkbox" label="Check me out" />
+          <NavLink href="/login">
+            <h4>I have a Account</h4>
+          </NavLink>
         </Form.Group>
 
-        <Button className=' align-content-center w-100' variant="primary" type="submit">
+        <Button
+          className=" align-content-center w-100"
+          variant="primary"
+          type="submit"
+        >
           Submit
         </Button>
       </div>
