@@ -94,12 +94,14 @@ return (
           </Form.Group>
         </Row>
 
-        <Form.Group className="mb-3 d-flex "id="formGridCheckbox">
-          
-          <Form.Check className='' type="checkbox" label="Check me out" />
-          <NavLink href="/login">
-            <h4>I have a Account</h4>
-          </NavLink>
+        <Form.Group className="mb-3 d-flex text-white " id="formGridCheckbox">
+          <Form.Check className="" type="checkbox" label="Check me out" />
+          <h6 className=" d-flex ">
+            Do you a have account
+            <NavLink href="/login">
+              <h6><span>?</span> Login</h6>
+            </NavLink>
+          </h6>
         </Form.Group>
 
         <Button

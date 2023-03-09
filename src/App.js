@@ -1,6 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./Components/Login/Login.css";
-import "./Components/Footer/Footer.css";
 import About from "./Components/About/About";
 import Login from "./Components/Login/Login";
 import Mainmanu from "./Components/MainManu/Mainmanu";

@@ -10,20 +10,97 @@ ul,li,a,h1,h2,h3,h4,h5,h6,p,a{
 img{
     vertical-align: middle;
     width: 100%;
+    object-fit: contain !important;
 }
 body{
     background: #2f3640 !important;
 }
 
-/* Navbar section css start */
+/* ----------------------Navbar section css start---------------------- */
+.navbar .navbar-nav {
+    height: 40px;
+    align-items: center;
+    justify-content: space-between !important;
+
+}
+
+.navbar .navbar-nav a {
+    text-align: end !important;
+    margin-left: 20px !important;
+}
+
+.footer {
+    position: static;
+    width: 100%;
+    bottom: 0;
+
+}
 .navbar-expand .navbar-nav {
     flex-direction: row;
     margin: 0;
 }
-/* Banner section css start */
+.navbar_section .search{
+    background: transparent !important;
+}
+.nabvar_logo img{
+    width: 50% !important;
+}
+/*-------------------- search bar css start-------------------- */
+.search_bar .search input:focus{
+    outline:none !important;
+    background:white !important;
+    color:black !important;
+    font-weight:700;
+}
+.search_bar{
+    position:sticky;
+}
+
+.search_bar .search button{
+    padding: 0 10px !important;
+    background-color: white;
+    outline: none;
+    color: black;
+}
+.search_bar .inner .cart{
+    margin-right: 90px;
+}
+/* --------------cart css start-------------- */
+.fishopiing_cart{
+    font-size:25px;
+}
+.cart_number{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    left: 70%;
+    bottom: 50%;
+    
+}
+.cart_logo img{
+    width: 30%;
+}
+.cart_number h3{
+    position: absolute;
+    color:red;
+    font-size: 12px;
+    font-weight: 700;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* --------------------Banner section css start --------------------*/
+
+.banner_picture_size{
+    object-fit: contain !important;
+}
 .banner_section{
     background: #00000045;
     margin-top: 50px !important;
+
 }
 .cetagrois h1{
     margin-bottom: 10px !important;
@@ -50,90 +127,24 @@ body{
     width: 100%;
     
 }
-.banner_section .banner_picture1{
+.banner_section .banner_picture{
     position: relative;
-    height:300px;
-    background: url(/public/Pictures/picture\ 01.jpg) repeat no-repeat center center;
-    background-size: cover;
+    height:350px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+    
+    
+}
+.banner_section .banner_picture .text{
+    position: absolute;
+    left:0%;
+    top: 50%;
+    transform: translate(10%, -50%);
 
 }
-.banner_section .banner_picture2{
-    position: relative;
-    height:300px;
-    background: url(/public/Pictures/health\ and\ beauty.png) repeat no-repeat center center;
-    background-size: cover;
 
-}
-.banner_section .banner_picture3{
-    position: relative;
-    height:300px;
-    background: url(/public/Pictures/watch\ banner.png) repeat no-repeat center center;
-    background-size: cover;
 
-}
-.banner_section .banner_picture4{
-    position: relative;
-    height:300px;
-    background: url(/public/Pictures/mans\ fashion.png) repeat no-repeat center center;
-    background-size: cover;
-
-}
-.banner_section .banner_picture5{
-    position: relative;
-    height:300px;
-    background: url(/public/Pictures/baby\ toy.png) repeat no-repeat center center;
-    background-size: cover;
-
-}
-.banner_section .banner_picture6{
-    position: relative;
-    height:300px;
-    background: url(/public/Pictures/Electronics.png) repeat no-repeat center center;
-    background-size: cover;
-
-}
-.banner_section .banner_picture7{
-    position: relative;
-    height:300px;
-    background: url(/public/Pictures/Tv\ and\ home.png) repeat no-repeat center center;
-    background-size: cover;
-
-}
-.banner_section .banner_picture8{
-    position: relative;
-    height:300px;
-    background: url(/public/Pictures/Electronics.png) repeat no-repeat center center;
-    background-size: cover;
-
-}
-.banner_section .banner_picture9{
-    position: relative;
-    height:300px;
-    background: url(/public/Pictures/single\ days.png) repeat no-repeat center center;
-    background-size: cover;
-
-}
-.banner_section .banner_picture10{
-    position: relative;
-    height:300px;
-    background: url(/public/Pictures/automotive\ and\ motorbike.png) repeat no-repeat center center;
-    background-size: cover;
-
-}
-.banner_section .banner_picture11{
-    position: relative;
-    height:300px;
-    background: url(/public/Pictures/sports\ and\ outdoor.png) repeat no-repeat center center;
-    background-size: cover;
-
-}
-.banner_section .banner_picture12{
-    position: relative;
-    height:300px;
-    background: url(/public/Pictures/pets.png) repeat no-repeat center center;
-    background-size: cover;
-
-}
 .banner_section .banner .overly{
     position: absolute;
     height: 100%;
@@ -183,7 +194,12 @@ body{
 
 }
 /* Banner section css end */
-/* shop section css start */
+
+/*---------------------- welcome Banner section css start---------------------- */
+
+.welcome_section figure {
+    filter: blur(2px);
+}
 .welcome_section{
     margin-top: 50px !important;
 }
@@ -193,7 +209,7 @@ body{
 }
 .welcome_section .main .text{
     left: 25%;
-    top: 40%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }
 .welcome_section .main .text p{
