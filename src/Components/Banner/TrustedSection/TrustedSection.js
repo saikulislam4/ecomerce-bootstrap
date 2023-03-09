@@ -3,11 +3,14 @@ import Slider from "react-slick";
 
 const TrustedSection = () => {
     var settings = {
-      dots: true,
+      dots: false,
       infinite: true,
+      autoplay: true,
       speed: 500,
       slidesToShow: 5,
       slidesToScroll: 1,
+      nextArrow: false,
+      prevArrow: false,
       initialSlide: 0,
       responsive: [
         {
@@ -17,7 +20,7 @@ const TrustedSection = () => {
             slidesToShow: 5,
             slidesToScroll: 1,
             infinite: true,
-            dots: false
+            dots: false,
           },
         },
         {
@@ -45,25 +48,28 @@ const TrustedSection = () => {
         </div>
         <Slider {...settings}>
           <div className="item">
-            <img src="/Companies picture/companies logo  (6).png" alt="" />
+            <img src="/Companies picture/companies logo  (1).png" alt="" />
+          </div>
+          <div className="item">
+            <img src="/Companies picture/companies logo  (2).png" alt="" />
+          </div>
+          <div className="item">
+            <img src="/Companies picture/companies logo  (3).png" alt="" />
+          </div>
+          <div className="item">
+            <img src="/Companies picture/companies logo  (4).png" alt="" />
+          </div>
+          <div className="item">
+            <img src="/Companies picture/companies logo  (5).png" alt="" />
           </div>
           <div className="item">
             <img src="/Companies picture/companies logo  (6).png" alt="" />
           </div>
           <div className="item">
-            <img src="/Companies picture/companies logo  (6).png" alt="" />
+            <img src="/Companies picture/companies logo  (7).png" alt="" />
           </div>
           <div className="item">
-            <img src="/Companies picture/companies logo  (6).png" alt="" />
-          </div>
-          <div className="item">
-            <img src="/Companies picture/companies logo  (6).png" alt="" />
-          </div>
-          <div className="item">
-            <img src="/Companies picture/companies logo  (6).png" alt="" />
-          </div>
-          <div className="item">
-            <img src="/Companies picture/companies logo  (6).png" alt="" />
+            <img src="/Companies picture/companies logo  (8).png" alt="" />
           </div>
         </Slider>
       </div>

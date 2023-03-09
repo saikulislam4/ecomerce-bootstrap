@@ -51,11 +51,20 @@ body{
     width: 50% !important;
 }
 /*-------------------- search bar css start-------------------- */
+.search_bar .search input{
+    transition: 0.4s;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid transparent;
+}
 .search_bar .search input:focus{
     outline:none !important;
     background:white !important;
     color:black !important;
     font-weight:700;
+    border: 1px solid black;
+    box-shadow: none;
+    font-size: 20px;
 }
 .search_bar{
     position:sticky;
@@ -82,6 +91,7 @@ body{
     background-color: white;
     left: 70%;
     bottom: 50%;
+    border: 1px solid black;
     
 }
 .cart_logo img{
