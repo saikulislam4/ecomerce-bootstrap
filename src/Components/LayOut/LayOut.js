@@ -14,20 +14,21 @@ const LayOut = () => {
             <Navbar.Brand className="nabvar_logo" href="/home">
               {" "}
               <img src="/practicebazar.png" alt="" />
-
             </Navbar.Brand>
             <Nav className="">
-              <Nav.Link href="/home">PRACTICE BAZAR SPONSORE</Nav.Link>
-              <Nav.Link href="/registration">SIGNUP</Nav.Link>
-              <Nav.Link href="/login">LOGING</Nav.Link>
+              <Nav.Link href="/home">Practice Bazar Sponsore</Nav.Link>
+              <Nav.Link href="/registration">Contact</Nav.Link>
+              <Nav.Link href="/registration">Signup</Nav.Link>
+              <Nav.Link href="/login">
+                <Button className="common_button">Login</Button>
+              </Nav.Link>
             </Nav>
           </Container>
         </Navbar>
       </div>
       <div className="search_bar  bg-black p-lg-4 text-white">
         <div className="inner container d-flex justify-content-lg-evenly">
-          <div className="cart_logo">
-          </div>
+          <div className="cart_logo"></div>
           <div className="search w-75">
             <Form className="d-flex w-50">
               <Form.Control

@@ -13,9 +13,14 @@ img{
     object-fit: contain !important;
 }
 body{
-    background: #2f3640 !important;
+    background: #dcdde1 !important;
 }
-
+.common_button{
+    padding: 5px 15px !important;
+}
+.common_top{
+    margin-top: 50px !important;
+}
 /* ----------------------Navbar section css start---------------------- */
 .navbar .navbar-nav {
     height: 40px;
@@ -108,7 +113,10 @@ body{
 .cetagrois ul li h6{
     display: inline-block;
     position: relative;
-    color: #487eb0;
+    color: #fff;
+    transition: .4s;
+    font-size: 18px;
+    margin-top: 6px !important;
     
 }
 .banner_section .cetagrois ul li h6::after{
@@ -123,8 +131,12 @@ body{
 
     
 }
+.cetagrois ul li h6:hover{
+    color: #0d6efd;
+}
 .cetagrois ul li h6:hover:after{
     width: 100%;
+    
     
 }
 .banner_section .banner_picture{
@@ -161,7 +173,7 @@ body{
     color: #fff;
 }
 .banner_section .banner .text h1{
-    margin-top: 20px !;
+    margin-top: 20px !important;
 }
 .banner_section .banner .text p{
     margin-top: 8px !important;
@@ -173,13 +185,16 @@ body{
 }
 .banner_section .slick-next {
     right: 10px !important;
+    display: none !important;
 }
 .banner_section .slick-prev {
     left: 10px !important; 
     z-index: 2;  
+    display: none !important;
 }
 .banner_section .slick-dots{
     bottom: 10px;
+
 }
 .banner_section .slick-dots li{
     margin: 0 2px !important;
@@ -208,16 +223,85 @@ body{
     overflow: hidden;
 }
 .welcome_section .main .text{
-    left: 25%;
+    left: 40%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
+.welcome_section .start_something{
+    margin-bottom: 10px !important;
+    font-size: 45px;
+}
 .welcome_section .main .text p{
-    width: 380px;
+    width: 680px;
     margin: 15px 0 !important;
+    text-align: center;
 }
 .welcome_section .main .text Button{
 padding: 8px 12px !important;
+margin-top: 20px;
 }
 /* shop section css end */
+/* ------------------Our services section css start------------------ */
+
+.ourservice_section .we_have{
+    margin-bottom: 100px !important;
+    color: #fff;
+}
+.ourservice_section .inner .item .squer{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background: #0d6efd;
+    transform: rotate(45deg) !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+
+.ourservice_section .inner .item .squer .icon{
+    position: absolute;
+    margin: auto !important;
+    transform: rotate(315deg)!important;
+    color: #eff2fb;
+
+}
+.ourservice_section .inner .item .squer .icon .icons {
+    font-size: 150px;
+    position: absolute;
+    left: -70px;
+    top: 10px;
+    
+}
+.ourservice_section .inner .text h5{
+    margin-top: 80px !important;
+    text-transform: capitalize;
+    color: black;
+}
+.ourservice_section .inner .text{
+    padding: 0 10px !important;
+}
+.ourservice_section .inner .text p{
+    color: black;
+    font-weight: 100;
+    margin: 10px 0 20px !important;
+}
+/* ------------------Our services section css end------------------ */
+/* ------------------Trusted section css start------------------ */
+.trusted_section{
+    margin: 100px 0;
+}
+.trusted_section .inner h1{
+    text-transform: capitalize;
+    margin-bottom: 50px !important;
+    
+    
+}
+.trusted_section .inner .item{
+    margin: 10px 20px !important;
+    object-fit: contain;
+    
+}
+.trusted_section .inner .item img{
+    width: 80%;
+}
+/* ------------------Trusted section css end------------------ */
 
