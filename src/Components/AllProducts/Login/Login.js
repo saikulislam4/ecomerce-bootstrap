@@ -2,12 +2,12 @@ import React from 'react';
 import { NavLink } from 'react-bootstrap';
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import Nav from "../LayOut/Navbar/Nab";
+import Nab from "../../LayOut/Navbar/Nab"
 
 const Login = () => {
     return (
       <>
-      <Nav></Nav>
+    <Nab></Nab>
         <div className="loging_page">
           <div className=" container">
             <div className=" row logo  ">

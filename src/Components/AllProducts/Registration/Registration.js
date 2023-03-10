@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { NavLink } from 'react-bootstrap';
-import Nab from '../LayOut/Navbar/Nab';
+import Nab from '../../LayOut/Navbar/Nab';
 
 const Registration = () => {
 return (

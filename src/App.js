@@ -1,11 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "./Components/Login/Login.css";
+import "./Components/AllProducts/Login/Login.css";
 import About from "./Components/About/About";
-import Login from "./Components/Login/Login";
+import Login from "./Components/AllProducts/Login/Login";
 import Mainmanu from "./Components/MainManu/Mainmanu";
 import Shops from "./Components/Products/Shops";
 import Products from "./Components/Products/Shops";
-import Registration from "./Components/Registration/Registration";
+import Registration from "./Components/AllProducts/Registration/Registration";
 import WomensAndFashion from "./Components/AllProducts/Women's_Fashion/WomensAndFashion";
 import HealthAndBeauty from "./Components/AllProducts/HealthAndBeauty/HealthAndBeauty";
 import WatchBagsAndJewellery from "./Components/AllProducts/WatchBangsAndJewellery/WatchBagsAndJewellery";
