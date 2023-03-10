@@ -1,31 +1,11 @@
-import React from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import React from 'react'
+import { FiShoppingCart } from "react-icons/fi";
 import Form from "react-bootstrap/Form";
 import { Button, NavLink } from "react-bootstrap";
-import { FiShoppingCart } from "react-icons/fi";
-const LayOut = () => {
+
+const SearchBar = () => {
   return (
     <div>
-      <div className="navbar_section">
-        <Navbar className="navbar" sticky="fixed" bg="dark" variant="dark">
-          <Container>
-            <Navbar.Brand className="nabvar_logo" href="/home">
-              {" "}
-              <img src="/practicebazar.png" alt="" />
-            </Navbar.Brand>
-            <Nav className="">
-              <Nav.Link href="/home">Practice Bazar Sponsore</Nav.Link>
-              <Nav.Link href="/registration">Contact</Nav.Link>
-              <Nav.Link href="/registration">Signup</Nav.Link>
-              <Nav.Link href="/login">
-                <Button className="common_button">Login</Button>
-              </Nav.Link>
-            </Nav>
-          </Container>
-        </Navbar>
-      </div>
       <div className="search_bar p-lg-4 text-white">
         <div className="inner container d-flex justify-content-lg-evenly">
           <div className="cart_logo"></div>
@@ -54,6 +34,6 @@ const LayOut = () => {
       </div>
     </div>
   );
-};
+}
 
-export default LayOut;
+export default SearchBar

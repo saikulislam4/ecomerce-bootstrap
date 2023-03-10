@@ -23,6 +23,7 @@ function App() {
         {
           path: "/",
           element: <Mainmanu></Mainmanu>,
+
           children: [
             {
               path: "/",
@@ -39,14 +40,6 @@ function App() {
             {
               path: "/about",
               element: <About></About>,
-            },
-            {
-              path: "/login",
-              element: <Login></Login>,
-            },
-            {
-              path: "/registration",
-              element: <Registration></Registration>,
             },
             {
               path: "/womensAndFashion",
@@ -97,6 +90,14 @@ function App() {
               element: <Pets></Pets>,
             },
           ],
+        },
+        {
+          path: "/login",
+          element: <Login></Login>,
+        },
+        {
+          path: "/registration",
+          element: <Registration></Registration>,
         },
       ]);
 
