@@ -18,6 +18,7 @@ import HomeAndLifeStyle from "./Components/AllProducts/HomeAndLifeStyle/HomeAndL
 import AutomotiveAndMotorbike from "./Components/AllProducts/AutomotiveAndMotorbike/AutomotiveAndMotorbike";
 import SportsAndOutdoor from "./Components/AllProducts/SportsAndOutdoor/SportsAndOutdoor";
 import Pets from "./Components/AllProducts/Pets/Pets";
+import ErrorPage from "./Components/AllProducts/ErrorPage/ErrorPage";
 function App() {
       const router = createBrowserRouter([
         {
@@ -98,6 +99,10 @@ function App() {
         {
           path: "/registration",
           element: <Registration></Registration>,
+        },
+        {
+          path: "/*",
+          element: <ErrorPage></ErrorPage>,
         },
       ]);
 
