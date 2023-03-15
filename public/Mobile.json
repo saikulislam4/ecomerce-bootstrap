@@ -8,6 +8,7 @@
     "img": "https://i.ibb.co/6snMtvq/Phone-2.jpg"
   },
   {
+    
     "id": 2,
     "name": "Vivo Y16",
     "color": "white",
@@ -17,11 +18,11 @@
   },
   {
     "id": 3,
-    "name": "iphone 12",
+    "name": "Apple-iPhone-14-Plus",
     "color": "white",
     "camera": "12Mp",
-    "price": "1500 tk",
-    "img": "https://i.ibb.co/gFtqZqk/Phone-3.jpg"
+    "price": "33500 tk",
+    "img": "https://i.ibb.co/b276wjQ/Apple-i-Phone-14-Plus-Purple.jpg"
   },
   {
     "id": 4,
@@ -41,10 +42,10 @@
   },
   {
     "id": 6,
-    "name": "iphone 12",
+    "name": "Apple-iPhone-14-Plus",
     "color": "white",
     "camera": "12Mp",
-    "price": "1500 tk",
-    "img": "https://i.ibb.co/gFtqZqk/Phone-3.jpg"
+    "price": "20500 tk",
+    "img": "https://i.ibb.co/b276wjQ/Apple-i-Phone-14-Plus-Purple.jpg"
   }
 ]

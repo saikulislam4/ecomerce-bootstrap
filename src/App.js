@@ -19,6 +19,7 @@ import AutomotiveAndMotorbike from "./Components/AllProducts/AutomotiveAndMotorb
 import SportsAndOutdoor from "./Components/AllProducts/SportsAndOutdoor/SportsAndOutdoor";
 import Pets from "./Components/AllProducts/Pets/Pets";
 import ErrorPage from "./Components/AllProducts/ErrorPage/ErrorPage";
+import ContactForm from "./Components/AllProducts/ContactForm/ContactForm";
 function App() {
       const router = createBrowserRouter([
         {
@@ -93,6 +94,10 @@ function App() {
           ],
         },
         {
+          path: "/contact",
+          element: <ContactForm></ContactForm>,
+        },
+        {
           path: "/login",
           element: <Login></Login>,
         },
@@ -100,6 +105,7 @@ function App() {
           path: "/registration",
           element: <Registration></Registration>,
         },
+
         {
           path: "/*",
           element: <ErrorPage></ErrorPage>,

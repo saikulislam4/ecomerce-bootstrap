@@ -16,7 +16,7 @@ const LayOut = () => {
             </Navbar.Brand>
             <Nav className="">
               <Nav.Link href="/home">Practice Bazar Sponsore</Nav.Link>
-              <Nav.Link href="/registration">Contact</Nav.Link>
+              <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="/registration">Signup</Nav.Link>
               <Nav.Link href="/login">
                 <Button className="common_button">Login</Button>
