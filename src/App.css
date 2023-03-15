@@ -197,6 +197,9 @@ body{
     right: 10px !important;
     display: none !important;
 }
+.banner_section .banner_picture .image img{
+    width: 130% !important;
+}
 .banner_section .slick-prev {
     left: 10px !important; 
     z-index: 2;  
