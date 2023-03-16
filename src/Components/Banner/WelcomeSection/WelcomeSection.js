@@ -1,5 +1,6 @@
 import React from 'react'
-import { Button, NavLink } from "react-bootstrap";
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const WelcomeSection = ({myData}) => {
     const {name} = myData;
   return (
@@ -19,9 +20,9 @@ const WelcomeSection = ({myData}) => {
               <p className=" m-auto">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus enim alias obcaecati eum, aliquam architecto.
               </p>
-              <NavLink href="/about">
+              <Link to="/about">
                 <Button>Shop Now</Button>
-              </NavLink>
+              </Link>
             </div>
           </div>
         </div>

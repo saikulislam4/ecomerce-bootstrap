@@ -2,9 +2,12 @@
 ul,li,a,h1,h2,h3,h4,h5,h6,p,a{
     padding: 0 !important;
     margin: 0 !important;
+    text-decoration: none !important;
+
 }
 *{
     margin: 0 auto;
+    
 }
 img{
     vertical-align: middle;
@@ -22,6 +25,10 @@ body{
     margin-top: 50px !important;
 }
 /* ----------------------Navbar section css start---------------------- */
+.navbar_section .nabvar_logo{
+    text-align: start;
+    margin: 0;
+}
 .navbar .navbar-nav {
     height: 40px;
     align-items: center;

@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { NavLink } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import Nab from '../../LayOut/Navbar/Nab';
 
 const Registration = () => {
@@ -101,11 +101,16 @@ return (
             <Form.Check className="" type="checkbox" label="Check me out" />
             <h6 className=" d-flex ">
               Do you a have account
-              <NavLink href="/login">
+              <Link to ="/login">
                 <h6>
+
+
+
+
+
                   <span>?</span> Login
                 </h6>
-              </NavLink>
+              </Link>
             </h6>
           </Form.Group>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const Banner = () => {
@@ -18,71 +18,71 @@ const Banner = () => {
           <div className="cetagrois">
             <ul>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/womensAndFashion">
+                <Link to="/womensAndFashion">
                   <h6>women's & girls fashion</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/healthandbuty">
+                <Link to="/healthandbuty">
                   <h6>health & beauty</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/watchbangandjewellery">
+                <Link to="/watchbangandjewellery">
                   <h6>watches, bags, jewellery</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/mensandfashion">
+                <Link to="/mensandfashion">
                   <h6>mens's & boys'fashion</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/babystoy">
+                <Link to="/babystoy">
                   <h6>babies & toys</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/electronicdevies">
+                <Link to="/electronicdevies">
                   <h6>electronic devies</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/tvandhomeapplience">
+                <Link to="/tvandhomeapplience">
                   <h6>TV & home appliances</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/electronicaccessories">
+                <Link to="/electronicaccessories">
                   <h6>electronic accessories</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/homelifestyle">
+                <Link to="/homelifestyle">
                   <h6>home & lifestyle</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/automotiveandmotobike">
+                <Link to="/automotiveandmotobike">
                   <h6>automitive & motorbike</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/sportsoutdoor">
+                <Link to="/sportsoutdoor">
                   <h6>sports & outdoors</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/pets">
+                <Link to="/pets">
                   <h6>groceries & pets</h6>
-                </NavLink>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
         <div className="col-lg-9 ">
           <Slider {...settings}>
-            <NavLink href="/womensAndFashion">
+            <Link to="/womensAndFashion">
               <div className="banner banner_picture">
                 <div className="text text-capitalize">
                   <h1 className=" ">
@@ -102,8 +102,8 @@ const Banner = () => {
                 </div>
                 <div className="overly "></div>
               </div>
-            </NavLink>
-            <NavLink href="/healthandbuty">
+            </Link>
+            <Link to="/healthandbuty">
               <div className="banner banner_picture">
                 <div className="text text-start text-capitalize">
                   <img
@@ -112,8 +112,8 @@ const Banner = () => {
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/watchbangandjewellery">
+            </Link>
+            <Link to="/watchbangandjewellery">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
@@ -122,8 +122,8 @@ const Banner = () => {
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/mensandfashion">
+            </Link>
+            <Link to="/mensandfashion">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
@@ -132,8 +132,8 @@ const Banner = () => {
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/babystoy">
+            </Link>
+            <Link to="/babystoy">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
@@ -142,8 +142,8 @@ const Banner = () => {
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/electronicdevies">
+            </Link>
+            <Link to="/electronicdevies">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
@@ -152,8 +152,8 @@ const Banner = () => {
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/tvandhomeapplience">
+            </Link>
+            <Link to="/tvandhomeapplience">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
@@ -162,8 +162,8 @@ const Banner = () => {
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/electronicaccessories">
+            </Link>
+            <Link to="/electronicaccessories">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
@@ -172,8 +172,8 @@ const Banner = () => {
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/homelifestyle">
+            </Link>
+            <Link to="/homelifestyle">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
@@ -182,8 +182,8 @@ const Banner = () => {
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/automotiveandmotobike">
+            </Link>
+            <Link to="/automotiveandmotobike">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
@@ -192,8 +192,8 @@ const Banner = () => {
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/sportsoutdoor">
+            </Link>
+            <Link to="/sportsoutdoor">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
@@ -202,14 +202,14 @@ const Banner = () => {
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/pets">
+            </Link>
+            <Link to="/pets">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img src="https://i.ibb.co/LNjYVxb/pets.png" alt="pets" />
                 </div>
               </div>
-            </NavLink>
+            </Link>
           </Slider>
         </div>
       </div>

@@ -1,17 +1,19 @@
 import React from 'react';
 import { Button, NavLink } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import {FaStar, FaStarHalf} from "react-icons/fa"
+
 
 const SingleMobile = ({ mobile }) => {
   const { id, img, name, username, email, color, camera, price,  } = mobile;
   return (
     <div className="col-lg-3  single_cart" >
       <div className="main_cart container">
-      <NavLink href='/'>
+      <Link to='/'>
       <div className="imgs mobile_imge style={{ width: '18rem' }}">
         <img src= {img} alt="" />
       </div>
-      </NavLink>
+      </Link>
 
 
       <div className="div text ">
@@ -38,9 +40,9 @@ const SingleMobile = ({ mobile }) => {
     
       </div>
       <div className="singlemobile_cart">
-        <NavLink href="/about">
+        <Link to="/about">
           <Button className=" mb-lg-4 common_button mt-lg-3 "> Add to Cart </Button>
-        </NavLink>
+        </Link>
         </div>
       </div>
 
