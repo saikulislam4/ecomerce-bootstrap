@@ -96,8 +96,7 @@ const Banner = () => {
                 </div>
                 <div className="image">
                   <img
-                    src="https://i.ibb.co/R74x9zN/picture-01.jpg"
-                    alt="pets"
+                    src="https://i.ibb.co/R74x9zN/picture-01.jpg"alt="pets."
                   />
                 </div>
                 <div className="overly "></div>
@@ -107,8 +106,8 @@ const Banner = () => {
               <div className="banner banner_picture">
                 <div className="text text-start text-capitalize">
                   <img
-                    src="https://i.ibb.co/kyDJ32P/health-and-beauty.png"
-                    alt="health-and-beauty"
+                    src="https://i.ibb.co/kyDJ32P/health-and-beauty.png."
+                    alt="health-and-beauty."
                   />
                 </div>
               </div>
@@ -117,8 +116,8 @@ const Banner = () => {
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
-                    src="https://i.ibb.co/tKf3Gcg/watch-banner.png"
-                    alt="watch-banner"
+                    src="https://i.ibb.co/tKf3Gcg/watch-banner.png."
+                    alt="watch-banner."
                   />
                 </div>
               </div>
@@ -127,8 +126,8 @@ const Banner = () => {
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
-                    src="https://i.ibb.co/P99D0vM/mans-fashion.png"
-                    alt="mans-fashion"
+                    src="https://i.ibb.co/P99D0vM/mans-fashion.png."
+                    alt="mans-fashion."
                   />
                 </div>
               </div>
@@ -137,8 +136,8 @@ const Banner = () => {
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
-                    src="https://i.ibb.co/vxvT8kM/baby-toy.png"
-                    alt="baby-toy"
+                    src="https://i.ibb.co/vxvT8kM/baby-toy.png."
+                    alt="baby-toy."
                   />
                 </div>
               </div>
@@ -146,10 +145,7 @@ const Banner = () => {
             <Link to="/electronicdevies">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
-                  <img
-                    src="https://i.ibb.co/wRfWvtW/picture-002.jpg"
-                    alt="picture-002"
-                  />
+                  <img src="https://i.ibb.co/wRfWvtW/picture-002.jpg."alt="picture-002."/>
                 </div>
               </div>
             </Link>
@@ -158,7 +154,7 @@ const Banner = () => {
                 <div className="text position-relative">
                   <img
                     src="https://i.ibb.co/7JX54PS/Tv-and-home.png"
-                    alt="Tv-and-home"
+                    alt="Tv-and-home."
                   />
                 </div>
               </div>
@@ -168,7 +164,7 @@ const Banner = () => {
                 <div className="text position-relative">
                   <img
                     src="https://i.ibb.co/8m2RQTM/Electronics.png"
-                    alt="Electronics"
+                    alt="Electronic."
                   />
                 </div>
               </div>
@@ -178,7 +174,7 @@ const Banner = () => {
                 <div className="text position-relative">
                   <img
                     src="https://i.ibb.co/r2HCXFW/single-days.png"
-                    alt="single-days"
+                    alt="single-day."
                   />
                 </div>
               </div>
@@ -188,7 +184,7 @@ const Banner = () => {
                 <div className="text position-relative">
                   <img
                     src="https://i.ibb.co/SsZ3HK0/automotive-and-motorbike.png"
-                    alt="automotive-and-motorbike"
+                    alt="automotive-and-motorbike,"
                   />
                 </div>
               </div>
@@ -197,8 +193,8 @@ const Banner = () => {
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
-                    src="https://i.ibb.co/cT4KJD6/sports-and-outdoor.png"
-                    alt="sports-and-outdoor"
+                    src="https://i.ibb.co/cT4KJD6/sports-and-outdoor.png."
+                    alt="sports-and-outdoor."
                   />
                 </div>
               </div>
@@ -206,7 +202,7 @@ const Banner = () => {
             <Link to="/pets">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
-                  <img src="https://i.ibb.co/LNjYVxb/pets.png" alt="pets" />
+                  <img src="https://i.ibb.co/LNjYVxb/pets.png" alt="pets." />
                 </div>
               </div>
             </Link>
