@@ -323,5 +323,11 @@ margin-top: 20px;
 .trusted_section .inner .item img{
     width: 80%;
 }
+.trusted_section .slick-prev {
+    display: none !important;
+}
+.trusted_section .slick-next {
+    display: none !important;
+}
 /* ------------------Trusted section css end------------------ */
 
