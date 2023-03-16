@@ -184,7 +184,7 @@ const Banner = () => {
                 <div className="text position-relative">
                   <img
                     src="https://i.ibb.co/SsZ3HK0/automotive-and-motorbike.png"
-                    alt="automotive-and-motorbike,"
+                    alt="automotive-and-motorbike."
                   />
                 </div>
               </div>
