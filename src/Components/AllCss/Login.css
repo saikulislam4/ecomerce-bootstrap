@@ -11,12 +11,14 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: white;
+    width: 100%;
 }
 input{
     background: transparent;
     font-size: 20px;
     padding: 5px 5px !important;
+    outline: none;
+    outline-style: none;
 }
 input:focus{
 background: transparent !important;
@@ -30,7 +32,7 @@ padding: 8px 0 !important;
 }
 .form{
     border: 1px solid gray;
-        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 /* Registration css start */
 
@@ -39,15 +41,13 @@ padding: 8px 0 !important;
     text-align: start;
     background: transparent;
     width: 96%;
+    outline: none;
+    outline-style: none;
 }
 .registration select{
-    color: White;
     padding: 5px 12px !important;
     width: 95%;
     background: transparent;
-}
-.registration label{
-    color: white;
 }
 .registration option{
     color: black;
@@ -55,10 +55,55 @@ padding: 8px 0 !important;
     padding: 8px 0 !important;
 
 }
+.registration input{
+    outline: none;
+    list-style: none;
+    border: none;
+    border: 1px solid gray;
+}
 .registration input:focus{
-    color: white;
-    background: transparent !important;
+outline: none;
+background: transparent !important;
 }
 .mensandfashion .image img{
     width: 100%;
+}
+
+.Contact_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh !important ;
+    background-image: radial-gradient(rgba(47, 8, 163, 0.07), rgba(40, 13, 120, 0.256), rgba(42, 18, 179, 0.399));
+}
+.Contact_form .main{
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.Contact_form h1{
+    text-align: center;
+    margin-bottom: 30px !important;
+}
+.Contact_form .inner input{
+    width: 100%;
+    outline: none;
+    border-style: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.Contact_form .inner label{
+    margin-right: 30px;
+}
+
+.Contact_form .inner textarea{
+width: 100%;
+background: transparent;
+resize: none;
+border-style: none;
+outline: none;
+border: 1px solid gray;
+padding: 10px;
 }

@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { NavLink } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import Nab from '../../LayOut/Navbar/Nab';
 
 const Registration = () => {
@@ -13,7 +13,7 @@ return (
     <div className="registration loging_page">
       <Form className="  col-lg-6 offset-3 p-3">
         <div className=" form p-lg-5 rounded-3">
-          <h1 className=" text-decoration-underline text-center mb-5 text-uppercase text-white">
+          <h1 className=" text-decoration-underline text-center mb-5 text-uppercase ">
             Registration Form
           </h1>
           <Form.Group
@@ -22,7 +22,7 @@ return (
           ></Form.Group>
           <Row className="mb-3">
             <Form.Group as={Col} controlId="formGridEmail">
-              <Form.Label className=" text-white">First Name</Form.Label>
+              <Form.Label className="">First Name</Form.Label>
               <Form.Control type="text" placeholder="First Name" />
             </Form.Group>
 
@@ -33,7 +33,7 @@ return (
           </Row>
           <Row className="mb-3">
             <Form.Group as={Col} controlId="formGridNumber">
-              <Form.Label className=" text-white">Username</Form.Label>
+              <Form.Label className="">Username</Form.Label>
               <Form.Control type="text" />
             </Form.Group>
             <Form.Group as={Col} controlId="formGridState">
@@ -46,14 +46,14 @@ return (
             </Form.Group>
 
             <Form.Group as={Col} controlId="formGridNumber">
-              <Form.Label className=" text-white">Date Of Birth</Form.Label>
+              <Form.Label className="">Date Of Birth</Form.Label>
               <Form.Control type="date" />
             </Form.Group>
           </Row>
 
           <Row className="mb-3">
             <Form.Group as={Col} controlId="formGridNumber">
-              <Form.Label className=" text-white w-100">Number</Form.Label>
+              <Form.Label className=" ">Number</Form.Label>
               <Form.Control type="number" />
             </Form.Group>
             <Form.Group as={Col} controlId="formGridEmail">
@@ -73,8 +73,8 @@ return (
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="formGridAddress2">
-            <Form.Label>Address 2</Form.Label>
-            <Form.Control placeholder="Apartment, studio, or floor" />
+            <label htmlFor="">Address 2</label>
+           <input type="text" placeholder="Apartment, studio, or floor" />
           </Form.Group>
 
           <Row className="mb-3">
@@ -97,15 +97,20 @@ return (
             </Form.Group>
           </Row>
 
-          <Form.Group className="mb-3 d-flex text-white " id="formGridCheckbox">
+          <Form.Group className="mb-3 d-flex " id="formGridCheckbox">
             <Form.Check className="" type="checkbox" label="Check me out" />
             <h6 className=" d-flex ">
               Do you a have account
-              <NavLink href="/login">
+              <Link to ="/login">
                 <h6>
+
+
+
+
+
                   <span>?</span> Login
                 </h6>
-              </NavLink>
+              </Link>
             </h6>
           </Form.Group>
 

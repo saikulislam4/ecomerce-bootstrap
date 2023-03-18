@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Nab from "../../LayOut/Navbar/Nab"
@@ -33,14 +33,14 @@ const Login = () => {
                     controlId="formBasicCheckbox"
                   >
                     <Form.Check type="checkbox" label="Check me out" />
-                    <NavLink href="">Forget Password?</NavLink>
+                    <Link to ="">Forget Password?</Link>
                   </Form.Group>
                   <Button className="w-100" variant="primary" type="submit">
                     Login
                   </Button>
                   <div className="registration text-center text-10 mt-3 d-flex justify-content-between">
                     <h6>Dont't have a account</h6>
-                    <NavLink href="/registration">Create Account </NavLink>
+                    <Link to ="/registration">Create Account </Link>
                   </div>
                 </Form>
               </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const Banner = () => {
@@ -18,71 +18,71 @@ const Banner = () => {
           <div className="cetagrois">
             <ul>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/womensAndFashion">
+                <Link to="/womensAndFashion">
                   <h6>women's & girls fashion</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/healthandbuty">
+                <Link to="/healthandbuty">
                   <h6>health & beauty</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/watchbangandjewellery">
+                <Link to="/watchbangandjewellery">
                   <h6>watches, bags, jewellery</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/mensandfashion">
+                <Link to="/mensandfashion">
                   <h6>mens's & boys'fashion</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/babystoy">
+                <Link to="/babystoy">
                   <h6>babies & toys</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/electronicdevies">
+                <Link to="/electronicdevies">
                   <h6>electronic devies</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/tvandhomeapplience">
+                <Link to="/tvandhomeapplience">
                   <h6>TV & home appliances</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/electronicaccessories">
+                <Link to="/electronicaccessories">
                   <h6>electronic accessories</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/homelifestyle">
+                <Link to="/homelifestyle">
                   <h6>home & lifestyle</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/automotiveandmotobike">
+                <Link to="/automotiveandmotobike">
                   <h6>automitive & motorbike</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/sportsoutdoor">
+                <Link to="/sportsoutdoor">
                   <h6>sports & outdoors</h6>
-                </NavLink>
+                </Link>
               </li>
               <li className=" text-capitalize list-unstyled">
-                <NavLink href="/pets">
+                <Link to="/pets">
                   <h6>groceries & pets</h6>
-                </NavLink>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
         <div className="col-lg-9 ">
           <Slider {...settings}>
-            <NavLink href="/womensAndFashion">
+            <Link to="/womensAndFashion">
               <div className="banner banner_picture">
                 <div className="text text-capitalize">
                   <h1 className=" ">
@@ -96,120 +96,116 @@ const Banner = () => {
                 </div>
                 <div className="image">
                   <img
-                    src="https://i.ibb.co/R74x9zN/picture-01.jpg"
-                    alt="pets"
+                    src="https://i.ibb.co/R74x9zN/picture-01.jpg"alt="pets."
                   />
                 </div>
                 <div className="overly "></div>
               </div>
-            </NavLink>
-            <NavLink href="/healthandbuty">
+            </Link>
+            <Link to="/healthandbuty">
               <div className="banner banner_picture">
                 <div className="text text-start text-capitalize">
                   <img
-                    src="https://i.ibb.co/kyDJ32P/health-and-beauty.png"
-                    alt="health-and-beauty"
+                    src="https://i.ibb.co/kyDJ32P/health-and-beauty.png."
+                    alt="health-and-beauty."
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/watchbangandjewellery">
+            </Link>
+            <Link to="/watchbangandjewellery">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
-                    src="https://i.ibb.co/tKf3Gcg/watch-banner.png"
-                    alt="watch-banner"
+                    src="https://i.ibb.co/tKf3Gcg/watch-banner.png."
+                    alt="watch-banner."
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/mensandfashion">
+            </Link>
+            <Link to="/mensandfashion">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
-                    src="https://i.ibb.co/P99D0vM/mans-fashion.png"
-                    alt="mans-fashion"
+                    src="https://i.ibb.co/P99D0vM/mans-fashion.png."
+                    alt="mans-fashion."
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/babystoy">
+            </Link>
+            <Link to="/babystoy">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
-                    src="https://i.ibb.co/vxvT8kM/baby-toy.png"
-                    alt="baby-toy"
+                    src="https://i.ibb.co/vxvT8kM/baby-toy.png."
+                    alt="baby-toy."
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/electronicdevies">
+            </Link>
+            <Link to="/electronicdevies">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
-                  <img
-                    src="https://i.ibb.co/wRfWvtW/picture-002.jpg"
-                    alt="picture-002"
-                  />
+                  <img src="https://i.ibb.co/wRfWvtW/picture-002.jpg."alt="picture-002."/>
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/tvandhomeapplience">
+            </Link>
+            <Link to="/tvandhomeapplience">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
                     src="https://i.ibb.co/7JX54PS/Tv-and-home.png"
-                    alt="Tv-and-home"
+                    alt="Tv-and-home."
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/electronicaccessories">
+            </Link>
+            <Link to="/electronicaccessories">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
                     src="https://i.ibb.co/8m2RQTM/Electronics.png"
-                    alt="Electronics"
+                    alt="Electronic."
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/homelifestyle">
+            </Link>
+            <Link to="/homelifestyle">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
                     src="https://i.ibb.co/r2HCXFW/single-days.png"
-                    alt="single-days"
+                    alt="single-day."
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/automotiveandmotobike">
+            </Link>
+            <Link to="/automotiveandmotobike">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
                     src="https://i.ibb.co/SsZ3HK0/automotive-and-motorbike.png"
-                    alt="automotive-and-motorbike"
+                    alt="automotive-and-motorbike."
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/sportsoutdoor">
+            </Link>
+            <Link to="/sportsoutdoor">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
                   <img
-                    src="https://i.ibb.co/cT4KJD6/sports-and-outdoor.png"
-                    alt="sports-and-outdoor"
+                    src="https://i.ibb.co/cT4KJD6/sports-and-outdoor.png."
+                    alt="sports-and-outdoor."
                   />
                 </div>
               </div>
-            </NavLink>
-            <NavLink href="/pets">
+            </Link>
+            <Link to="/pets">
               <div className="banner banner_picture text">
                 <div className="text position-relative">
-                  <img src="https://i.ibb.co/LNjYVxb/pets.png" alt="pets" />
+                  <img src="https://i.ibb.co/LNjYVxb/pets.png" alt="pets." />
                 </div>
               </div>
-            </NavLink>
+            </Link>
           </Slider>
         </div>
       </div>
