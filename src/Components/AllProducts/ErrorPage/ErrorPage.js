@@ -1,5 +1,6 @@
 import React from 'react'
-import { Button, NavLink } from 'react-bootstrap'
+import { Button} from 'react-bootstrap'
+import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
   return (
@@ -7,10 +8,9 @@ const ErrorPage = () => {
         <div className='text'>
         <h1>Oppos !</h1>
         <h2> sorry 404 not found</h2>
-        <NavLink href='/'>
-
+        <Link to ="/">
         <Button className='common_button'>home</Button>
-        </NavLink>
+        </Link>
         </div>
 
     </div>
