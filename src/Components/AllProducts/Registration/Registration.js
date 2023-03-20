@@ -54,14 +54,11 @@ return (
               </Link>
             </h6>
           </Form.Group>
-
-          <Button
-            className=" align-content-center w-100"
-            variant="primary"
-            type="submit"
-          >
+          <Link to="login">
+          <Button className=" align-content-center w-100"variant="primary"ype="submit">
             Submit
           </Button>
+          </Link>
         </div>
       </Form>
     </div>
