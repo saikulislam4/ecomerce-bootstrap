@@ -1,7 +1,10 @@
 .loging_page{
-    background: url(/public/Pictures/welcome\ store.png) repeat no-repeat center;
+    display: flex;
     height: 100vh !important;
+    justify-content: center;
+    align-items: center;
     background-size: cover;
+    margin: auto;
     background-image: radial-gradient(rgba(47, 8, 163, 0.07), rgba(40, 13, 120, 0.256), rgba(42, 18, 179, 0.399));
 
 }
@@ -60,6 +63,14 @@ padding: 8px 0 !important;
     list-style: none;
     border: none;
     border: 1px solid gray;
+}
+.registration input:checked{
+    font-size: 10px !important;
+}
+
+#vehicle1{
+    font-size: 10px !important;
+    display: inline-block;
 }
 .registration input:focus{
 outline: none;

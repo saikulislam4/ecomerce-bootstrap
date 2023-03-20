@@ -6,12 +6,13 @@ import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
 import Nab from '../../LayOut/Navbar/Nab';
 
+
 const Registration = () => {
 return (
   <>
   <Nab></Nab>
     <div className="registration loging_page">
-      <Form className="  col-lg-6 offset-3 p-3">
+      <Form className="  col-lg-4 offset-4 p-4">
         <div className=" form p-lg-5 rounded-3">
           <h1 className=" text-decoration-underline text-center mb-5 text-uppercase ">
             Registration Form
@@ -32,30 +33,6 @@ return (
             </Form.Group>
           </Row>
           <Row className="mb-3">
-            <Form.Group as={Col} controlId="formGridNumber">
-              <Form.Label className="">Username</Form.Label>
-              <Form.Control type="text" />
-            </Form.Group>
-            <Form.Group as={Col} controlId="formGridState">
-              <Form.Label>Gander</Form.Label>
-              <Form.Select defaultValue="Choose...">
-                <option>Choose..</option>
-                <option>Male</option>
-                <option>Female</option>
-              </Form.Select>
-            </Form.Group>
-
-            <Form.Group as={Col} controlId="formGridNumber">
-              <Form.Label className="">Date Of Birth</Form.Label>
-              <Form.Control type="date" />
-            </Form.Group>
-          </Row>
-
-          <Row className="mb-3">
-            <Form.Group as={Col} controlId="formGridNumber">
-              <Form.Label className=" ">Number</Form.Label>
-              <Form.Control type="number" />
-            </Form.Group>
             <Form.Group as={Col} controlId="formGridEmail">
               <Form.Label>Email</Form.Label>
               <Form.Control type="email" placeholder="Enter email" />
@@ -66,48 +43,12 @@ return (
               <Form.Control type="password" placeholder="Password" />
             </Form.Group>
           </Row>
-
-          <Form.Group className="mb-3" controlId="formGridAddress1">
-            <Form.Label>Address</Form.Label>
-            <Form.Control placeholder="1234 Main St" />
-          </Form.Group>
-
-          <Form.Group className="mb-3" controlId="formGridAddress2">
-            <label htmlFor="">Address 2</label>
-           <input type="text" placeholder="Apartment, studio, or floor" />
-          </Form.Group>
-
-          <Row className="mb-3">
-            <Form.Group as={Col} controlId="formGridCity">
-              <Form.Label>City</Form.Label>
-              <Form.Control />
-            </Form.Group>
-
-            <Form.Group as={Col} controlId="formGridState">
-              <Form.Label>State</Form.Label>
-              <Form.Select defaultValue="Choose...">
-                <option>Choose...</option>
-                <option>...</option>
-              </Form.Select>
-            </Form.Group>
-
-            <Form.Group as={Col} controlId="formGridZip">
-              <Form.Label>Zip</Form.Label>
-              <Form.Control />
-            </Form.Group>
-          </Row>
-
           <Form.Group className="mb-3 d-flex " id="formGridCheckbox">
-            <Form.Check className="" type="checkbox" label="Check me out" />
+             <input type="checkbox" id="vehicle1"/>
             <h6 className=" d-flex ">
               Do you a have account
               <Link to ="/login">
                 <h6>
-
-
-
-
-
                   <span>?</span> Login
                 </h6>
               </Link>
