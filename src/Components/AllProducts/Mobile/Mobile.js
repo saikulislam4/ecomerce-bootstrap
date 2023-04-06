@@ -12,6 +12,7 @@ const Mobile = () => {
         fetch(`Mobile.json`)
           .then((Response) => Response.json())
           .then((data) => setMobile(data));
+          console.log(mobile)
 
     })
     const settings = {

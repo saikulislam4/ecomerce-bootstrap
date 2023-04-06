@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, NavLink } from 'react-bootstrap';
+import { Button, } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import {FaStar, FaStarHalf} from "react-icons/fa"
 
 
 const SingleMobile = ({ mobile }) => {
-  const { id, img, name, username, email, color, camera, price,  } = mobile;
+  const {  img, name, price,  } = mobile;
   return (
     <div className="col-lg-3  single_cart" >
       <div className="main_cart container">
