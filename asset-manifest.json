@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ecomerce-bootstrap/static/css/main.46ffd611.css",
+    "main.js": "/ecomerce-bootstrap/static/js/main.cdfdec20.js",
+    "static/js/787.c1ae23ed.chunk.js": "/ecomerce-bootstrap/static/js/787.c1ae23ed.chunk.js",
+    "static/media/error_page.png": "/ecomerce-bootstrap/static/media/error_page.9c91aae6c42b8bc76c1d.png",
+    "static/media/slick.svg": "/ecomerce-bootstrap/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/ecomerce-bootstrap/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/ecomerce-bootstrap/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/ecomerce-bootstrap/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/ecomerce-bootstrap/index.html",
+    "main.46ffd611.css.map": "/ecomerce-bootstrap/static/css/main.46ffd611.css.map",
+    "main.cdfdec20.js.map": "/ecomerce-bootstrap/static/js/main.cdfdec20.js.map",
+    "787.c1ae23ed.chunk.js.map": "/ecomerce-bootstrap/static/js/787.c1ae23ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46ffd611.css",
+    "static/js/main.cdfdec20.js"
+  ]
+}

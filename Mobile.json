@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "iQOO z6 lite",
+    "color": "white",
+    "camera": "12Mp",
+    "price": "1500 tk",
+    "img": "https://i.ibb.co/6snMtvq/Phone-2.jpg"
+  },
+  {
+    
+    "id": 2,
+    "name": "Vivo Y16",
+    "color": "white",
+    "camera": "12Mp",
+    "price": "1700 tk",
+    "img": "https://i.ibb.co/Rc6xN9r/Phone-1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Apple-iPhone-14-Plus",
+    "color": "white",
+    "camera": "12Mp",
+    "price": "33500 tk",
+    "img": "https://i.ibb.co/b276wjQ/Apple-i-Phone-14-Plus-Purple.jpg"
+  },
+  {
+    "id": 4,
+    "name": "iQOO z6 lite",
+    "color": "white",
+    "camera": "12Mp",
+    "price": "1500 tk",
+    "img": "https://i.ibb.co/6snMtvq/Phone-2.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Vivo Y16",
+    "color": "white",
+    "camera": "12Mp",
+    "price": "1700 tk",
+    "img": "https://i.ibb.co/Rc6xN9r/Phone-1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Apple-iPhone-14-Plus",
+    "color": "white",
+    "camera": "12Mp",
+    "price": "20500 tk",
+    "img": "https://i.ibb.co/b276wjQ/Apple-i-Phone-14-Plus-Purple.jpg"
+  }
+]
